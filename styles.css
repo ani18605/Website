@@ -829,57 +829,44 @@ th {
 .about-section{
     color: darkblue;
 }
-/* Media queries for smaller screens */
-
 @media only screen and (max-width: 768px) {
     body {
         background-color: #f0f0f0;
         color: #333;
     }
-
     .welcome-section {
         flex-direction: column;
     }
-
     .inline-margin {
         margin-left: 0;
     }
-
     .welcome-image img.stats {
         width: 100%;
     }
-
     .welcome-image img {
         width: 100%;
         border-radius: 8px;
     }
-
     .welcome-text {
         text-align: center;
         padding: 20px;
     }
-
     .service-boxes {
         flex-direction: column;
     }
-
     .testimonial-boxes {
         flex-direction: column;
     }
-
     .portfolio-items {
         flex-direction: column;
     }
-
     .portfolio-item {
         width: 100%;
         margin: 0 0 30px;
     }
-
     .blog-post {
         flex-direction: column;
     }
-
     .blog-post img {
         width: 100%;
         border-radius: 15px 15px 0 0;
@@ -888,17 +875,14 @@ th {
         flex-direction: column;
         align-items: center;
     }
-
     .scroll-nav li {
         margin-right: 0;
         margin-bottom: 10px;
     }
-
     .dropdown-content {
         min-width: unset;
         width: 100%;
     }
-
     .dropdown-content a {
         width: 100%;
         box-sizing: border-box;
@@ -907,113 +891,80 @@ th {
     flex-direction: column;
     text-align: center;
 }
-
-/* Welcome Section */
 .welcome-section {
     padding: 20px;
 }
-
 .welcome-image img {
     width: 100%;
     border-radius: 8px;
 }
-
 .welcome-text {
     text-align: center;
     padding: 20px;
 }
-
 .button-container {
     flex-direction: column;
     align-items: center;
 }
-
-/* Services Section */
 .services-section {
     padding: 20px;
 }
-
 .service-boxes {
     flex-direction: column;
 }
-
-/* Testimonials Section */
 .testimonials-section {
     padding: 20px;
 }
-
 .testimonial-box {
     width: 100%;
     margin: 0 0 20px;
 }
-
-/* Portfolio Section */
 .portfolio-section {
     padding: 20px;
 }
-
 .portfolio-item {
     width: 100%;
     margin: 0 0 20px;
 }
-
-/* Blog Section */
 .blog-section {
     padding: 20px;
 }
-
 .blog-post {
     flex-direction: column;
 }
-
 .blog-post img {
     width: 100%;
     border-radius: 15px 15px 0 0;
 }
-
-/* Contact Section */
 .contact-section {
     padding: 20px;
 }
-
-/* FAQ Section */
 .faq-section {
     padding: 20px;
 }
-
 .faq-item {
     width: 100%;
     margin: 0 0 20px;
 }
-
-/* About Section */
 .about-details {
     flex-direction: column;
 }
-
 .about-left img {
     border-radius: 12px;
 }
-
 .about-right {
     padding: 20px;
 }
-
-/* Team Section */
 .team-section {
     padding: 20px;
 }
-
 .team-member {
     max-width: 100%;
     margin-bottom: 20px;
 }
-
-/* Subscription Section */
 .subscription-box {
     padding: 20px;
 }
-
 .subscription-option {
     width: 100%;
     margin: 0 0 20px;
@@ -1021,103 +972,184 @@ th {
     .contact-section {
         padding: 20px;
     }
-
     .contact-section h2 {
         font-size: 20px;
     }
-
     .contact-section p {
         font-size: 16px;
     }
-
-    /* Social Media Section */
+    
     .social-media-section {
         padding: 20px;
     }
-
     .social-icons {
         flex-direction: column;
     }
-
     .social-icons a {
         margin: 10px 0;
     }
-
     .social-icons img {
         width: 40px;
         height: 40px;
     }
-
-    /* Team Section */
+    
     .team-section {
         padding: 20px;
     }
-
     .team-member {
         max-width: 100%;
         margin-bottom: 20px;
     }
-
-    /* Subscription Section */
+    
     .subscription-box {
         padding: 20px;
     }
-
     .subscription-option {
         width: 100%;
         margin: 0 0 20px;
     }
-
-    /* Contact Us Section */
+    
     .contact-us {
         margin: 2rem 0;
     }
-
     .contact-us .content {
         width: 100%;
     }
-
     .form-div {
         flex-direction: column;
     }
-
     .contact-icon-container {
         width: 100%;
         margin-top: 20px;
     }
-
     .contact-item {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
     .contact-item .icon {
         margin-bottom: 10px;
     }
-
     .title-contact,
     .opacity-8 {
         text-align: center;
     }
-
     .form-div,
     .contact-icon-container {
         padding: 20px;
         border-radius: 15px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     }
-
     input,
     textarea {
         padding: 10px;
     }
-
     .get-started-btn {
         width: 100%;
     }
-
     .additional-text {
         text-align: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    
+    
+    
+    .contact-section {
+        padding: 10px;
+    }
+    .contact-section h2 {
+        font-size: 18px;
+    }
+    .contact-section p {
+        font-size: 14px;
+    }
+    
+    .social-media-section {
+        padding: 10px;
+    }
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .team-section {
+        padding: 10px;
+    }
+    .team-member {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .subscription-box {
+        padding: 10px;
+    }
+    .subscription-option {
+        margin: 0 0 10px;
+    }
+    
+    .contact-us {
+        margin: 1rem 0;
+    }
+    .form-div,
+    .contact-icon-container {
+        padding: 10px;
+    }
+    .get-started-btn {
+        font-size: 14px;
+    }
+    .additional-text {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    
+    
+    
+    .contact-section {
+        padding: 10px;
+    }
+    .contact-section h2 {
+        font-size: 18px;
+    }
+    .contact-section p {
+        font-size: 14px;
+    }
+    
+    .social-media-section {
+        padding: 10px;
+    }
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .team-section {
+        padding: 10px;
+    }
+    .team-member {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .subscription-box {
+        padding: 10px;
+    }
+    .subscription-option {
+        margin: 0 0 10px;
+    }
+    
+    .contact-us {
+        margin: 1rem 0;
+    }
+    .form-div,
+    .contact-icon-container {
+        padding: 10px;
+    }
+    .get-started-btn {
+        font-size: 14px;
+    }
+    .additional-text {
+        font-size: 12px;
     }
 }

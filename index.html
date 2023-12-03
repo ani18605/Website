@@ -25,7 +25,7 @@
     </div>
     <div class="navigation">
         <ul>
-            <li><a href="#about">About</a></li>
+            <li><a href="#about">About </a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#team">Team</a></li>
@@ -42,7 +42,8 @@
         </ul>
     </div>
 </div>
-<div class="content" style="margin-bottom: 50px;">
+<div class="content" style="margin-bottom: 200px;">
+    <section class="welcome-section" style="margin-top: -50px;"> <!-- Adjust margin-top value -->
         <div class="welcome-text">
             <h1>Welcome to </h1>
             <h2>Lorem Ipsum</h2>
@@ -58,6 +59,7 @@
             <img src="./images/stats-img.svg" alt="Welcome Image" class="stats" width="200%" style="max-width: 1000px;">
         </div>
     </section>
+    <section class="cards-container" style="margin-top: 50px; margin-bottom: -50px;"> <!-- Adjust margin-top value -->
         <div class="card">
             <i class="fas fa-heart"></i>
             <h3>Lorem Ipsum</h3>
@@ -76,17 +78,17 @@
         </div>
     </section>
 </div>
-<section id="about" class="about-section">
-    <div class="about-details">
+<section id="about" class="about-section" style="display: grid; grid-template-columns: 1fr; grid-gap: 20px; padding: 50px;">
+    <div class="about-details" style="background-color: #001f3f; border-radius: 8px; overflow: hidden; box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5); display: grid; grid-template-columns: 1fr 1fr; align-items: center;">
         <div class="about-left">
-            <p class="random-bold-text" style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit blanditiis sint cumque ea numquam ex nobis illo maiores. Quibusdam id tempore magni esse incidunt dicta odit accusamus sunt sint!</p>
-            <img src="./images/about.jpg" alt="Image 1">
+            <p class="random-bold-text" style="color: #fff; font-size: 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit blanditiis sint cumque ea numquam ex nobis illo maiores. Quibusdam id tempore magni esse incidunt dicta odit accusamus sunt sint!</p>
+            <img src="./images/about.jpg" alt="Image 1" style="width: 100%; border-radius: 8px; box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);">
         </div>
         <div class="about-right">
-            <h2 style="color: #fff;">Our Mission</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="image-text">
-                <img src="./images/about-2.jpg" alt="Image 2">
+            <h2 style="color: #fff; font-size: 28px; margin-bottom: 20px;">Our Mission</h2>
+            <p style="color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="image-text" style="display: grid; grid-template-columns: 1fr; align-items: center; margin-top: 40px;">
+                <img src="./images/about-2.jpg" alt="Image 2" style="margin-top: 20px;">
             </div>
         </div>
     </div>
